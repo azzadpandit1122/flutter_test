@@ -37,7 +37,7 @@ class DashboardScreen extends StatelessWidget {
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
                           snapshot.data![index]['id'] +
-                              " " +
+                              "\n" +
                               snapshot.data![index]['supply'],
                           style: TextStyle(
                               fontSize: 20.0, fontWeight: FontWeight.bold),
@@ -129,9 +129,9 @@ class DashboardScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
-                      Icons.search,
+                      Icons.home_max_outlined,
                     ),
-                    Text("Search"),
+                    Text("TV & AC"),
                   ],
                 ),
               ),
@@ -150,9 +150,9 @@ class DashboardScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
-                      Icons.search,
+                      Icons.pages_outlined,
                     ),
-                    Text("Search"),
+                    Text("map"),
                   ],
                 ),
               ),
@@ -172,9 +172,9 @@ class DashboardScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
-                      Icons.search,
+                      Icons.reset_tv_outlined,
                     ),
-                    Text("Search"),
+                    Text("logout"),
                   ],
                 ),
               ),
