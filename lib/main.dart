@@ -15,6 +15,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
+      darkTheme: ThemeData.dark(), // standard dark theme
+      themeMode: ThemeMode.system,
       routes: {
         "/fist": ((context) => fistScreen()),
         // "/secoundScreen": ((context) => secoundScreen())
